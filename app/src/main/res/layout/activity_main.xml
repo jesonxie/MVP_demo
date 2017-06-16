@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jeson.mvp_demo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_mvp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to user_activity" />
+
+    <Button
+        android:id="@+id/btn_to_commodity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_mvp"
+        android:text="to commodity_activity" />
+
+</RelativeLayout>
